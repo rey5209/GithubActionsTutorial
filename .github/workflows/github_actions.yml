@@ -1,15 +1,15 @@
-name: Github Actions Example
+name: Jior Action
 
 on:
   pull_request:
   push:
     branches: 
       - master
-      - develop
+      
 
 jobs:
   test:
-    name: Running Units Tests
+    name: Running Units
     runs-on: ubuntu-latest
 
     steps:
